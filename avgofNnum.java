@@ -15,4 +15,5 @@ public class avgofnum {
         average = sum / count;
         System.out.println("the average is: " + average);
     }
+
 }
