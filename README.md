@@ -84,14 +84,3 @@ GitHub: [https://github.com/yashmishra11](https://github.com/yashmishra11)
 This project is open for learning and educational purposes.
 
 ---
-
-### Optional (Recommended)
-
-If you want, I can:
-
-* Improve file naming consistency
-* Add sample input/output to each program
-* Convert this into an **interview-ready showcase repo**
-* Help you link this effectively in your resume
-
-Just tell me.
