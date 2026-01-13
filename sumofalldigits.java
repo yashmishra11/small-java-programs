@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class adddigitsinnum {
+public class sumofalldigits {
     public static void main(String[] args) {
         int number;
         System.out.println("enter the number:");
@@ -15,3 +15,4 @@ public class adddigitsinnum {
         System.out.println("sum of all digits is " + sum);
     }
 }
+
