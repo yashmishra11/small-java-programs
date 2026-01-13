@@ -11,9 +11,7 @@ public class sumofalldigits {
             System.out.println("Input is 0, Loop skipped successfully.");
             return;
         }
-
         while (number > 0)
-
         {
             int lastDigit = number % 10;
             number = number / 10;
@@ -22,3 +20,4 @@ public class sumofalldigits {
         System.out.println("sum of all digits is " + sum);
     }
 }
+
