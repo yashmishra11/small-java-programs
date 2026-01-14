@@ -1,13 +1,27 @@
+import java.util.Scanner;
+
 public class sumandavgofarray {
     public static void main(String[] args) {
-        int[] arr = { 11, 12, 18, 14 };
-        int length = arr.length;
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the size of array:");
+        int length = sc.nextInt();
+
+        int[] arr = new int[length];
         int sum = 0;
+
+        System.out.println("Enter the elements of array:");
+
         for (int i = 0; i < length; i++) {
-            sum = sum + arr[i];
+            arr[i] = sc.nextInt();
+            sum += arr[i];
         }
-        System.out.println("sum of element of array is :" + sum);
+
+        System.out.println("Sum of elements of array is: " + sum);
+
         float avg = (float) sum / length;
-        System.out.println("average of element of array is :" + avg);
+        System.out.println("Average of elements of array is: " + avg);
+        sc.close();
     }
 }
