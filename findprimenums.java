@@ -8,8 +8,8 @@ public class findprimenums {
         number = sc.nextInt();
         int flag = 0;
         if (number == 0 || number == 1) {
-            System.out.println("entered number is not a prime number ");
-
+            System.out.println(number + " is not a prime number ");
+            return;
         } else {
             int middleNumber = number / 2;
             for (int i = 2; i <= middleNumber; i++)
@@ -24,5 +24,6 @@ public class findprimenums {
 
             System.out.println(number + " is a prime number");
         }
+        sc.close();
     }
 }
