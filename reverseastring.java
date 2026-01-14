@@ -1,6 +1,11 @@
+import java.util.Scanner;
+
 public class reverseastring {
     public static void main(String[] args) {
-        String str = "yash mishra";
+        System.out.println("Enter the string to reverse:");
+
+        Scanner st = new Scanner(System.in);
+        String str = st.nextLine();// entireline
         String reversedStr = "";
         char ch;
 
@@ -9,5 +14,7 @@ public class reverseastring {
             reversedStr = ch + reversedStr;
         }
         System.out.println("Reversed string: " + reversedStr);
+        st.close();
+
     }
 }
