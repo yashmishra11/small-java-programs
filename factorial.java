@@ -1,18 +1,21 @@
 import java.util.Scanner;
 
-public class factorial {
+public class fibonacciseries {
     public static void main(String[] args) {
-        int number;
-        System.out.println("enter the number : ");
+        int n = 0;
+        long firstNum = 0; // use int for smaller numbers
+        long secondNum = 1;
+        long nextNum;
+        System.out.println("enter the number of terms: ");
         Scanner sc = new Scanner(System.in);
-        number = sc.nextInt();
-        int answer = factorial(number);
-        System.out.println("factorial of " + number + " is : " + answer);
-    }
+        n = sc.nextInt();
 
-    static int factorial(int n) {
-        if (n == 1 || n == 0)
-            return 1;
-        return n * factorial(n - 1);
+        for (int i = 1; i <= n; ++i) {
+            System.out.print(firstNum + ",");
+            nextNum = firstNum + secondNum;
+            firstNum = secondNum;
+            secondNum = nextNum;
+        }
+        sc.close();
     }
 }
