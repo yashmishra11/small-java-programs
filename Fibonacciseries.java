@@ -1,4 +1,4 @@
-public class fibonacciseries {
+public class Fibonacciseries {
     public static void main(String[] args) {
         int n = 10, firstNum = 0, secondNum = 1;
         int nextNum;
@@ -9,4 +9,5 @@ public class fibonacciseries {
             secondNum = nextNum;
         }
     }
+
 }
