@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class avgofNnums {
+public class AvgofNnums {
     public static void main(String[] args) {
         int count;
         System.out.println("enter the count of numbers: ");
@@ -20,3 +20,4 @@ public class avgofNnums {
     }
 
 }
+//adds numbers as i input them and at the end of loop calculates average
