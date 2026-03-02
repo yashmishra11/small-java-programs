@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fibonacciseries {
+public class Fibonacciseries {
     public static void main(String[] args) {
         int n = 0;
         long firstNum = 0; // use int for smaller numbers
@@ -19,3 +19,4 @@ public class fibonacciseries {
         sc.close();
     }
 }
+
