@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class findprimenums {
+public class Findprimenums {
     public static void main(String[] args) {
         int number;
         System.out.println("enter the number: ");
@@ -27,3 +27,4 @@ public class findprimenums {
         sc.close();
     }
 }
+
