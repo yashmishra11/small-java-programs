@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumandavgofarray {
+public class Sumandavgofarray {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -25,4 +25,5 @@ public class sumandavgofarray {
         sc.close();
     }
 }
+
 
