@@ -15,7 +15,7 @@ public class sumandavgofarray {
 
         for (int i = 0; i < length; i++) {
             arr[i] = sc.nextInt();
-            sum += arr[i];
+            sum = sum + arr[i];//at the same time
         }
 
         System.out.println("Sum of elements of array is: " + sum);
@@ -25,3 +25,4 @@ public class sumandavgofarray {
         sc.close();
     }
 }
+
