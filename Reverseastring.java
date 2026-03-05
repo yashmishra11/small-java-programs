@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class reverseastring {
+public class Reverseastring {
     public static void main(String[] args) {
         System.out.println("Enter the string to reverse:");
 
@@ -18,3 +18,4 @@ public class reverseastring {
 
     }
 }
+
