@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumofall {
+public class Sumofall {
     public static void main(String[] args) {
         int count;
         System.out.println("enter the count of numbers: ");
@@ -11,5 +11,8 @@ public class sumofall {
             number = sc.nextInt();
             sum = sum + number;
         }
+        System.out.println("sum of all numbers is : " + sum);
+        sc.close();
     }
+
 }
